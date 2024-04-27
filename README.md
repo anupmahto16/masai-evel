@@ -3,6 +3,8 @@
 ## Overview
 This web application provides a user-friendly platform for browsing and filtering products sourced from an external API. Users can view products in a grid format, search products by title, filter products by category, and sort them by price.
 
+![Product Listing Page](listing.png)
+
 ## Features
 - **Product Grid Display**: View products in a well-organized grid layout.
 - **Product Information**: Each product card displays an image, title, and price.
