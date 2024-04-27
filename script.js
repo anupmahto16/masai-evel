@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const sortSelect = document.getElementById('sort');
     let allProducts = [];
 
-    // Fetch categories and populate dropdown
     fetch('https://fakestoreapi.com/products/categories')
         .then(response => response.json())
         .then(categories => {
@@ -16,8 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 categorySelect.appendChild(option);
             });
         });
-
-    // Fetch and display products
     fetch('https://fakestoreapi.com/products')
         .then(response => response.json())
         .then(products => {
